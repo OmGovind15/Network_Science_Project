@@ -1,0 +1,18 @@
+# Python cache and environments
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+
+# --- Project-Specific Data ---
+# Ignore the large raw data file
+nifty500_adj_close_2023_2024.csv
